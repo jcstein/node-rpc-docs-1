@@ -248,7 +248,7 @@ export default function Example() {
                 <Bars3BottomLeftIcon className='h-6 w-6' aria-hidden='true' />
               </button>
               <h1 className='my-auto ml-2 font-[ruberoid] text-xl font-semibold text-gray-900 sm:text-3xl md:hidden'>
-                {spec.info.title} Playground
+                {spec.info.title} potato
               </h1>
             </div>
 
@@ -498,7 +498,7 @@ const RPCMethod = (
                   jsonrpc: '2.0',
                   result:
                     method.result.description == 'Null' ||
-                    !method.result.schema.examples
+                      !method.result.schema.examples
                       ? []
                       : [method.result.schema.examples[0]],
                 },
